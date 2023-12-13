@@ -1,0 +1,22 @@
+# tunerTestPresetDelete.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn:
+    id: "tuningName"
+- tapOn: "Presets"
+- tapOn: "Load preset"
+- longPressOn:
+    id: "name"
+- tapOn: "Cancel"
+- assertVisible:
+    id: "name"
+- longPressOn:
+    id: "name"
+- tapOn: "Delete"
+- assertNotVisible:
+    id: "name"
+- tapOn:
+    id: "buttonBack"
+- tapOn:
+    id: "buttonBack"

@@ -1,0 +1,5 @@
+# tunerMenuHeadstock.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Instrument headstock"

@@ -1,0 +1,8 @@
+# tunerLaunch.yaml
+
+appId: pl.netigen.toolstuner
+---
+- launchApp:
+    clearState: true
+- tapOn: "Skip for now"
+- tapOn: "While using the app"

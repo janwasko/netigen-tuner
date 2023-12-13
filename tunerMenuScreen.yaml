@@ -1,0 +1,5 @@
+# tunerMenuScreen.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Keep Screen on"

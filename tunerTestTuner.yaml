@@ -1,0 +1,9 @@
+# tunerTestTuner.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn:
+    id: "fullScreenImage"
+- waitForAnimationToEnd
+- tapOn:
+    id: "closeFullScreen"

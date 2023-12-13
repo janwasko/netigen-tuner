@@ -1,0 +1,12 @@
+# tuner.yaml
+
+appId: pl.netigen.toolstuner
+---
+- runFlow: tunerLaunch.yaml
+- runFlow: tunerTestTuner.yaml
+- runFlow: tunerTestChromatic.yaml
+- runFlow: tunerTestCustomCreate.yaml
+- runFlow: tunerTestPresetCreate.yaml
+- runFlow: tunerTestMenu.yaml
+- runFlow: tunerTestCustomDelete.yaml
+- runFlow: tunerTestPresetDelete.yaml

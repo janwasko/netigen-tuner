@@ -1,0 +1,25 @@
+# tunerTestCustomDelete.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn:
+    id: "tuningName"
+- tapOn: "Custom"
+- longPressOn:
+    id: "subTuningTextView"
+    index: 0
+- tapOn: "Cancel"
+- assertVisible:
+    id: "subTuningTextView"
+    index: 0
+- longPressOn:
+    id: "subTuningTextView"
+    index: 0
+- tapOn: "Delete"
+- assertNotVisible:
+    id: "subTuningTextView"
+    index: 0
+- tapOn:
+    id: "buttonBack"
+- tapOn:
+    id: "buttonBack"

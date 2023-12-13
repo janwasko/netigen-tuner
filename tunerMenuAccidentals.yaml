@@ -1,0 +1,8 @@
+# tunerMenuAccidentals.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Accidentals"
+- tapOn: "Sharps and flats"
+- tapOn:
+    id: "buttonBack"

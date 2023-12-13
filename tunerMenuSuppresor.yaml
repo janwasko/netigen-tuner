@@ -1,0 +1,5 @@
+# tunerMenuSuppresor.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Noise suppressor"

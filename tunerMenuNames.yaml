@@ -1,0 +1,8 @@
+# tunerMenuNames.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Names of the sounds"
+- tapOn: "do re mi fa sol la si"
+- tapOn:
+    id: "buttonBack"

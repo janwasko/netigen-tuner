@@ -1,0 +1,5 @@
+# tunerMenuHints.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Text hints"

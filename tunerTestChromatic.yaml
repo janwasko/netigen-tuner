@@ -1,0 +1,14 @@
+# tunerTestChromatic.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Chromatic"
+- tapOn: "Generated sounds"
+- tapOn:
+    id: "buttonBack"
+- tapOn:
+    id: "fullScreenImage"
+- waitForAnimationToEnd
+- tapOn:
+    id: "closeFullScreen"
+- back

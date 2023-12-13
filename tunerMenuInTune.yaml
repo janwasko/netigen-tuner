@@ -1,0 +1,5 @@
+# tunerMenuInTune.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "In tune sound effect"

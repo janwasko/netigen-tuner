@@ -1,0 +1,18 @@
+# tunerTestCustomCreate.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn:
+    id: "tuningName"
+- tapOn: "Custom"
+- tapOn:
+    id: "addTuningButton"
+- tapOn: "Add"
+- tapOn: "Add"
+- tapOn: "Add"
+- tapOn: "Save"
+- tapOn:
+    id: "name"
+- inputText: "Customed"
+- tapOn: "Save"
+- assertVisible: "Customed"

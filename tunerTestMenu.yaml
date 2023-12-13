@@ -1,0 +1,18 @@
+# tunerTestMenu.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Menu"
+- runFlow: tunerMenuScreen.yaml
+- runFlow: tunerMenuHeadstock.yaml
+- runFlow: tunerMenuInTune.yaml
+- runFlow: tunerMenuNames.yaml
+- runFlow: tunerMenuReaction.yaml
+- runFlow: tunerMenuAccidentals.yaml
+- runFlow: tunerMenuAccuracy.yaml
+- runFlow: tunerMenuSounds.yaml
+- waitForAnimationToEnd
+- scroll
+- runFlow: tunerMenuSuppresor.yaml
+- runFlow: tunerMenuHints.yaml
+- runFlow: tunerMenuLanguage.yaml

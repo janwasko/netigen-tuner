@@ -1,0 +1,8 @@
+# tunerMenuSounds.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Sound of the strings (Tuner)"
+- tapOn: "Generated sounds"
+- tapOn:
+    id: "buttonBack"

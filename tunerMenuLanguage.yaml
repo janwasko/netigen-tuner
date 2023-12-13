@@ -1,0 +1,7 @@
+# tunerMenuLanguage.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Language"
+- tapOn: "Afrikaans"
+- tapOn: "OK"

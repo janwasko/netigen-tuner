@@ -1,0 +1,8 @@
+# tunerMenuReaction.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Reaction"
+- tapOn: "Faster"
+- tapOn:
+    id: "buttonBack"

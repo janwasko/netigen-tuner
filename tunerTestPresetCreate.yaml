@@ -1,0 +1,27 @@
+# tunerTestPresetCreate.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn:
+    id: "tuningName"
+- tapOn:
+    above: "10"
+- tapOn: "Equal tempered"
+- tapOn: "Meantone"
+- tapOn:
+    id: "buttonBack"
+- scroll
+- tapOn: "2"
+- tapOn: "Presets"
+- tapOn: "Save preset"
+- tapOn:
+    id: "name"
+- inputText: "Presetpreset"
+- tapOn: "Save"
+- assertVisible: "Presetpreset"
+- tapOn:
+    id: "buttonBack"
+- tapOn:
+    id: "buttonBack"
+- assertVisible:
+    id: "advancedInfo"

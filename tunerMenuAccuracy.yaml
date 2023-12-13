@@ -1,0 +1,8 @@
+# tunerMenuAccuracy.yaml
+
+appId: pl.netigen.toolstuner
+---
+- tapOn: "Accuracy"
+- tapOn: "Range 100 cents (half tone)"
+- tapOn:
+    id: "buttonBack"
